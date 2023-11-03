@@ -11,7 +11,19 @@ body {
 
 #etch-container {
     display: flex;
-    border: 1px solid white;
-    min-height: 500px;
-    min-width: none;width: 500px;
+    border: 0.5px solid white;
+    height: 500px;
+    width: 500px;
+}
+
+.column {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cell {
+    flex: auto;
+    background-color: gray ;
+    border: 0.5px solid black;
 }
