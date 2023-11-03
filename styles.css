@@ -24,6 +24,8 @@ body {
 
 .cell {
     flex: auto;
-    background-color: gray ;
+    background-color: white;
     border: 0.5px solid black;
+    /* opacity: 1; */
+
 }
