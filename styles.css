@@ -1,0 +1,17 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#etch-container {
+    display: flex;
+    border: 1px solid white;
+    min-height: 500px;
+    min-width: none;width: 500px;
+}
